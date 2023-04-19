@@ -6,13 +6,12 @@ public class CompanyMain {
     public static void main(String[] args) {
 
         Company obj = new Company();
-        System.out.println("For company1: ");
-        System.out.println("Enter the employee details:");
-        obj.compnay1();
 
-        System.out.println();
-        System.out.println("Enter the employee details:");
-        System.out.println("For company2: ");
-        obj.compnay2();
+        Company obj2 = new Company();
+
+        for (int i=0;i<2;i++){
+            obj.addEmployee();
+            obj2.addEmployee();
+        }
     }
 }

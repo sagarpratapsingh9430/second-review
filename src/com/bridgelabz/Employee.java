@@ -1,12 +1,13 @@
 package com.bridgelabz;
 
 public class Employee {
-    String name;
-    int age;
-    long phoneNumber;
-    String city;
-    String state;
-    String department;
+    private String name;
+    private int age;
+    private long phoneNumber;
+    private String city;
+    private String state;
+    private String department;
+
 
     public String getName() {
         return name;
